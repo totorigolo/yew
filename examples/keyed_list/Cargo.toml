@@ -1,0 +1,9 @@
+[package]
+name = "keyed_list"
+version = "0.1.0"
+authors = ["Thomas Lacroix <toto.rigolo@free.fr>"]
+edition = "2018"
+
+[dependencies]
+rand = { version = "0.7.3", features = ["wasm-bindgen"] }
+yew = { path = "../../yew" }
